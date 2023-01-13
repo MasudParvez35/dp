@@ -27,18 +27,6 @@ int knapsack_Top_Down_DP(int val[], int wt[], int n, int w)
             else dp[i][j] = dp[i-1][j];
         }
     }
-    //***start***//
-    for (int i = 0; i <= w; i++) printf("%4d",i);
-    cout << endl;
-    for (int i = 0; i <= n; i++)
-    {
-        for (int j = 0; j <= w; j++)
-        {
-            printf("%4d", dp[i][j]);
-        }
-        cout << endl;
-    }
-    //***end***//
     return dp[n][w];
 }
 int main()
