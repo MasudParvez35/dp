@@ -1,0 +1,57 @@
+.box {
+    text-align: center;
+    background-color:orange;
+    margin: 100px 450px 450px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.box h1 {
+    font: 30px;
+    margin-bottom: 80px;
+    color: blueviolet;
+}
+#under {
+    color: red;
+}
+.input-field {
+    background-color: beige;
+    margin: 15px;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+}
+.input-field i {
+    margin-left: 15px;
+    color: #999;
+}
+p {
+    text-align: left;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button {
+    flex-basis: 25%;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transform: background 1s;
+    margin-left: 50px;
+    margin-right: 50px;
+}
